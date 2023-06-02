@@ -48,29 +48,34 @@ body {
 .logo img {
     float: left;
 }
-.right-text{
+
+.right-text {
     font-size: 25px;
 }
-.left-sec1{
+
+.left-sec1 {
     width: 60%;
     margin-top: 100px;
     margin-bottom: 50%;
-    
+
 }
-.right-sec1{
+
+.right-sec1 {
     margin-top: 100px;
     width: 40%;
     display: flex;
     flex-direction: row;
-  
+
     justify-content: center;
 }
 
-.first{
-    display: flex;height: 75%;
+.first {
+    display: flex;
+    height: 75%;
+    padding: 10px 3rem;
 }
 
-.batch-part{
+.batch-part {
     padding: 17px 25px;
     background: #2b7ddd;
     border-radius: 50px;
@@ -80,13 +85,15 @@ body {
     width: 40%;
     font-size: 21px;
 }
-.sec1-text{
+
+.sec1-text {
     display: flex;
     padding-top: 15%;
     padding-left: 50px;
     flex-direction: column;
 }
-.grad-text{
+
+.grad-text {
     background: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);
     margin: 30px 0;
     font-weight: 700;
@@ -96,12 +103,13 @@ body {
     margin-top: 6%;
 }
 
-.sec1-description{
+.sec1-description {
     font-size: 38px;
     line-height: 43px;
     width: 85%;
 }
-.hero-form{
+
+.hero-form {
     height: 75%;
     position: relative;
     width: 70%;
@@ -112,21 +120,25 @@ body {
     border: 1px solid #E6E6E6;
     box-shadow: 0px 9px 80px rgba(0, 0, 0, 0.04), 0px 3.75998px 33.4221px rgba(0, 0, 0, 0.0287542), 0px 2.01027px 17.869px rgba(0, 0, 0, 0.0238443), 0px 1.12694px 10.0172px rgba(0, 0, 0, 0.02), 0px 0.598509px 5.32008px rgba(0, 0, 0, 0.0161557), 0px 0.249053px 2.21381px rgba(0, 0, 0, 0.0112458);
 }
-.form-text{
+
+.form-text {
     margin-top: 0.25rem;
     font-size: .875em;
     color: #6c757d;
 }
-.form-text>h1{
+
+.form-text>h1 {
     font-weight: 600;
     font-size: 20px;
     color: #2E2E2E;
     text-align: center;
 }
-.form-input{
+
+.form-input {
     margin: 0 10px;
 }
-.form-input>input{
+
+.form-input>input {
     margin-top: 30px;
     color: #b8b6b6;
     border: 1px solid #b8b6b6;
@@ -137,7 +149,8 @@ body {
     border-radius: 5px;
     width: 95%;
 }
-.form-btn{
+
+.form-btn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,3 +165,81 @@ body {
     font-size: 15px;
     color: #FFFFFF;
 }
+
+/* section second starts here!! */
+
+.whyus-text {
+    font-weight: 600;
+    font-size: 50px;
+
+}
+
+.enroll-btn {
+    position: fixed;
+    bottom: 1rem;
+    width: 7%;
+    right: 0px;
+    background: #46b314;
+    padding: 8px;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.whyus-para {
+    width: 60%;
+    margin-top: 30px;
+    font-size: 26px;
+    padding-left: 8%;
+    color: #576575;
+}
+
+
+
+.rating {
+    text-align: center;
+    line-height: 29px;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.passion-ratings {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+padding-top: 5%;
+    position: relative;
+    background: #2b7ddd;
+    color: #fff;
+    padding-bottom: 7rem;
+}
+
+
+/* sections third starts here!!! */
+
+.training {
+    margin-top: 200px;
+    margin-bottom: 100px;}
+    .training .sec-heading {
+        position: relative;
+        padding-bottom: 15px;
+        width: 50%;
+    }
+    .sec-heading {
+        font-size: 42px;
+        font-weight: 600;
+    }
+    img, svg {
+        vertical-align: middle;
+    }
+    .blue-txt {
+        color: #2b7ddd;
+    }

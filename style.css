@@ -237,9 +237,20 @@ padding-top: 5%;
         font-size: 42px;
         font-weight: 600;
     }
-    img, svg {
-        vertical-align: middle;
-    }
-    .blue-txt {
-        color: #2b7ddd;
-    }
+  .left-react-text{
+display: flex;
+float: left;
+    width: 50%;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 35px;
+  }
+
+  .right-react-img{
+    display: flex;
+    width: 45%;
+ 
+    margin-top: 35px;
+
+  }
+ 
